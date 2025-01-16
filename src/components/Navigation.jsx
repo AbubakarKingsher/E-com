@@ -23,7 +23,7 @@ function Navigation() {
             <hr className="w-full bg-blue-400 h-0.5 mt-7" />
             <h2 className="py-2 text-xl font-semibold mb-2">Category Filter</h2>
 
-            <Link to="/" className="flex items-center gap-2 mb-2">
+            <Link to="/E-com" className="flex items-center gap-2 mb-2">
                 <span
                     style={{ backgroundColor: color() }}
                     className="h-3 w-3 rounded-full inline-block"
