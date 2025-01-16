@@ -14,6 +14,7 @@ function App() {
         <Route path="/create" element={<CreateProduct />} />
         <Route path="/edit/:id" element={<Edit />} />
       </Routes>
+      
     </div>
   );
 }
