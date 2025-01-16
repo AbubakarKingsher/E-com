@@ -24,7 +24,7 @@ function Details() {
         const filterProduct = productData.filter(p => p.id != id);
         setProductData(filterProduct)
         localStorage.setItem("product", filterProduct)
-        navigate('/')
+        navigate('/E-com')
     }
 
 
